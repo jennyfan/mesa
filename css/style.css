@@ -11,9 +11,15 @@
 
 /* SECTION STYLING */
 body {
-    margin: 0;
-    position: relative;
-    background-color: #ffffff;
+  margin: 0;
+  position: relative;
+}
+#bg-img {
+  position: fixed;
+  background: url('../img/background-01.jpg');
+  background-size: cover;
+  width: 100%;
+  opacity: 0.5;
 }
 .wrapper {
   height: auto;
